@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Simple form</h1>
 
-<form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
+<form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()" style="margin: 10px;">
   <nz-form-item>
     <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="email">E-mail</nz-form-label>
     <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="The input is not valid E-mail!">
